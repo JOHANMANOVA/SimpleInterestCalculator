@@ -1,80 +1,67 @@
-Simple Calculator (Python)
+# Simple Interest Calculator
 
-A simple command-line calculator built using Python that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
-This project is ideal for beginners who want to practice Python fundamentals and logical thinking.
+This project is a simple command-line based calculator that computes Simple Interest using a Bash script. It takes user input for principal amount, rate of interest, and time period, and calculates the simple interest.
 
-🚀 Features
+## 🚀 Features
 
-Addition
+- Calculates Simple Interest
+- Accepts user input from terminal
+- Simple and easy-to-use interface
+- Lightweight Bash script
 
-Subtraction
+## 🛠️ Technologies Used
 
-Multiplication
+- Language: Bash Shell Scripting
+- Interface: Command Line (CLI)
 
-Division
+## 📂 Project Structure
 
-Handles division by zero
-
-Easy-to-use Command Line Interface (CLI)
-
-🛠️ Technologies Used
-
-Language: Python 3
-
-Interface: Command Line (CLI)
-
-📂 Project Structure
-simple-calculator/
+simple-interest-calculator/
 │
-├── calculator.py
+├── simple-interest.sh
 ├── README.md
+├── LICENSE
+├── CODE_OF_CONDUCT.md
+└── CONTRIBUTING.md
 
-▶️ How to Run the Project
-Step 1: Clone the Repository
-git clone https://github.com/your-username/simple-calculator.git
+## ▶️ How to Run the Project
 
-Step 2: Navigate to the Project Folder
-cd simple-calculator
+### Step 1: Clone the Repository
+git clone https://github.com/JOHANMANOVA/SimpleInterestCalculator
 
-Step 3: Run the Program
-python calculator.py
+### Step 2: Navigate to the Project Folder
+cd SimpleInterestCalculator
 
+### Step 3: Run the Script
+bash simple-interest.sh
 
-Make sure Python 3 is installed on your system.
+## 🧮 Sample Input/Output
 
-📸 Sample Output
-🧮 Simple Calculator
-Choose an operation:
-1. Addition (+)
-2. Subtraction (-)
-3. Multiplication (*)
-4. Division (/)
+Enter Principal:
+1000  
+Enter Rate of Interest:
+5  
+Enter Time Period:
+2  
 
-Enter your choice (1/2/3/4): 3
-Enter first number: 6
-Enter second number: 7
-Result: 6 * 7 = 42
+Simple Interest is: 100
 
-🎯 Purpose of This Project
+## 🎯 Purpose of This Project
 
-Learn basic Python syntax
+- Understand basic Bash scripting
+- Learn user input handling in shell
+- Perform arithmetic operations in scripts
+- Practice open-source project structure
 
-Practice conditional statements
+## 🤝 Contributing
 
-Understand user input handling
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-Build confidence in Python programming
+## 📄 License
 
-🤝 Contributing
+This project is licensed under the Apache 2.0 License.
 
-Contributions are welcome!
-Fork the repository and submit a pull request for improvements.
+## 👤 Author
 
-📄 License
-
-This project is licensed under the MIT License.
-
-👤 Author
-
-Johan Manova
+Johan Manova  
 GitHub: https://github.com/JOHANMANOVA
